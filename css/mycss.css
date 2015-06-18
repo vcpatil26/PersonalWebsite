@@ -6,10 +6,33 @@ p {
     font-size: 20px;
 }
 
-p.small {
+p.small,
+li,
+ul  {
     font-size: 16px;
+	text-transform: none;
+	color: #363636;
 }
 
+ul.no-bullets {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#skills ul > li .skills-score .glyphicon.filled {
+  color: #22A39F;
+}
+
+#skills ul > li .skills-title {
+  display: inline-block;
+  width: 60%;
+}
+
+#skills li:hover {
+  font-size: 21px;
+  background-color: #E3D9FA;
+}
 a,
 a:hover,
 a:focus,
@@ -32,7 +55,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+li,
+ul {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -41,6 +66,10 @@ h6 {
 
 .img-centered {
     margin: 0 auto;
+}
+
+article .projects{
+display:inline-block;
 }
 
 header {
